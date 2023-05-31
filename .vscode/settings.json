@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "vscode",
+            "database": "${workspaceFolder:ibm_skills-final_django_cloud_app_with_database}/db.sqlite3"
+        }
+    ]
+}
